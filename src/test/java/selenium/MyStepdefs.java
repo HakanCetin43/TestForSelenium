@@ -45,4 +45,32 @@ public class MyStepdefs {
 
 
     }
+
+    @Given("the user navigates to {string}")
+    public void theUserNavigatesTo(String arg0) {
+    }
+
+    @When("the user drags the {string} to {string}")
+    public void theUserDragsTheTo(String arg0, String arg1) {
+    }
+
+    @Then("the user views {string} message")
+    public void theUserViewsMessage(String arg0) {
+    }
+
+    @When("the user slides {string}")
+    public void theUserSlides(String arg0) {
+    }
+
+    @Given("User navigates {string}")
+    public void userNavigates(String arg0) {
+    }
+
+    @When("User enters {string} to {string} area")
+    public void userEntersToArea(String arg0, String arg1) {
+    }
+
+    @And("User clicks {string} area")
+    public void userClicksArea(String arg0) {
+    }
 }
